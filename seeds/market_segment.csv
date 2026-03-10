@@ -1,0 +1,6 @@
+segment_name,segment_description,priority_tier
+AUTOMOBILE,Customers in the automotive industry,1
+BUILDING,Customers in construction and real estate,2
+FURNITURE,Customers in furniture and home goods,3
+MACHINERY,Customers in industrial machinery,4
+HOUSEHOLD,Residential and household customers,5

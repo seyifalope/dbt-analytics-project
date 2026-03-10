@@ -19,7 +19,8 @@ final as (
         customers.customer_id,
         customers.customer_name,
         customers.market_segment,
-        customers.account_balance
+        customers.account_balance,
+        {{ convert_currency('orders.order_amount') }} as order_amount_gbp
     
     from orders
     left join customers
